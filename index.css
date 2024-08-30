@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c4cbd1;
+}
+
+.container {
+    width: 30%;
+    height: 80%;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        /* transform:skew(0.5deg ,-5deg); */
+        /* transform: rotate(-5deg); */
+        filter: invert(1);
+    }
+}
+
+.container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0;
+}
+
+.box{
+    width: 80%;
+    margin: 20px 5px;
+    padding: 0 2px;
+    border-bottom: 2px solid rgb(121, 121, 230);
+    /* border-radius: 5px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box i{
+    margin-left: 10px;
+}
+
+.box input{
+    font-size: 1rem;
+    outline: none;
+    background: none;
+    border: none;
+}
+.container input{
+    font-size: 1rem;
+    margin: 10px auto;
+    padding: 10px 2px;
+    display: block;
+    width: 80%;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container input:hover{
+    opacity: 0.8;
+}
+#submit{
+    background-color: rgb(39, 39, 250);
+    border: 2px solid blue;
+    color: white;
+
+}
+#reset{
+    background-color: rgb(192, 189, 189);
+    border: 2px solid black;
+}
+.rem input{
+    display: inline-block;
+    width: 10%;
+    margin: 10px 0;
+}
+.rem{
+    margin: 10px 0 ;
+}
+.container a{
+    margin: 30px;
+    padding: 10px;
+}
+.in{
+    
+    margin: 20px auto;
+    display: inline-block;
+}
+#create{
+    margin-left: 90px;
+}
+#term{
+    margin-left: 15px;
+}
+.container a:hover{
+    color: black;
+}
